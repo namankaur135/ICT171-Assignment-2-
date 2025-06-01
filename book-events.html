@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="EventX - Your ultimate platform for booking and discovering exciting events. Find concerts, workshops, conferences, and more.">
+<meta name="keywords" content="events, tickets, booking, concerts, workshops, conferences, event management">
+<title>EventX - Book Your Next Event</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎫</text></svg>">
+
+</head>
+<body>
+    <div class="booking-container">
+        <section id="book-tickets" class="booking-section">
+            <div class="container">
+            <h2 style="font-size: 3.5rem;">Book Your Tickets</h2>
+            <form id="booking-form">
+            <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+            <label for="event-select">Select Event:</label>
+            <select id="event-select" name="event" required>
+            <option value="">-- Select an Event --</option>
+            <option value="Tech Conference 2025">Tech Conference 2025</option>
+            <option value="Music Fest Live">Music Fest Live</option>
+            <option value="Art & Design Workshop">Art & Design Workshop</option>
+            <!-- Options will be populated by JS -->
+            </select>
+            <small class="error-message"></small>
+            </div>
+            <div class="form-group">
+            <label for="tickets">Number of Tickets:</label>
+            <input type="number" id="tickets" name="tickets" min="1" value="1" required>
+            <small class="error-message"></small>
+            </div>
+            <button type="submit" class="btn btn-primary">Confirm Booking</button>
+            <div id="form-message" class="form-status-message"></div>
+            </form>
+            </div>
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+

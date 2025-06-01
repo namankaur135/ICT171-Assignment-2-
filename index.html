@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="EventX - Your ultimate platform for booking and discovering exciting events. Find concerts, workshops, conferences, and more.">
+<meta name="keywords" content="events, tickets, booking, concerts, workshops, conferences, event management">
+<title>EventX - Book Your Next Event</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎫</text></svg>">
+</head>
+<body>
+<header>
+<nav class="navbar">
+<div class="container">
+<a href="index.html" class="logo">EventX</a>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#featured-events">Events</a></li>
+<li><a href="#book-tickets">Book Tickets</a></li>
+<li><a href="#login-register" class="btn btn-outline">Login/Register</a></li>
+</ul>
+<button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+<span></span>
+<span></span>
+<span></span>
+</button>
+</div>
+</nav>
+</header>
+ 
+    <main>
+<section id="home" class="hero-section">
+<div class="container">
+<h1>Discover & Book Amazing Events</h1>
+<p style="font-weight: 600;">Your one-stop platform for unforgettable experiences. Find, book, and enjoy.</p>
+<a href="#featured-events" class="btn btn-primary">Browse Events</a>
+</div>
+</section>
+ 
+        <section id="featured-events" class="featured-events-section">
+<div class="container">
+<h2>Featured Events</h2>
+<div class="event-grid">
+<!-- Sample Event 1 -->
+<div class="event-card" data-event-name="Tech Conference 2025">
+<img src="public/TechConference.png" alt="Tech Conference 2024">
+<div class="event-info">
+<h3>Tech Conference 2025</h3>
+<p class="event-date">Date: June 16, 2025</p>
+<p class="event-venue">Venue: Silicon Valley Convention Center</p>
+</div>
+<button class="btn btn-secondary book-now-btn">Book Now</button>
+</div>
+<!-- Sample Event 2 -->
+<div class="event-card" data-event-name="Music Fest Live">
+<img src="public/music_festival.png" alt="Music Fest Live">
+<div class="event-info">
+<h3>Music Fest Live</h3>
+<p class="event-date">Date: July 10, 2025</p>
+<p class="event-venue">Venue: Central Park Grounds</p>
+</div>
+<button class="btn btn-secondary book-now-btn">Book Now</button>
+</div>
+<!-- Sample Event 3 -->
+<div class="event-card" data-event-name="Art & Design Workshop">
+<img src="public/ArtandDesign.png" alt="Art & Design Workshop">
+<div class="event-info">
+<h3>Art & Design Workshop</h3>
+<p class="event-date">Date: August 10, 2025</p>
+<p class="event-venue">Venue: The Creative Studio</p>
+</div>
+<button class="btn btn-secondary book-now-btn">Book Now</button>
+</div>
+<!-- Sample Event 4 (Optional) -->
+<!-- <div class="event-card" data-event-name="Foodie Fair Extravaganza">
+<img src="https://via.placeholder.com/400x250/dc3545/ffffff?text=Foodie+Fair" alt="Foodie Fair">
+<div class="event-info">
+<h3>Foodie Fair Extravaganza</h3>
+<p class="event-date">Date: January 15, 2025</p>
+<p class="event-venue">Venue: City Expo Hall</p>
+<button class="btn btn-secondary book-now-btn">Book Now</button>
+</div>
+</div> -->
+</div>
+</div>
+</section>
+ 
+        <!-- <section id="book-tickets" class="booking-section">
+<div class="container">
+<h2>Book Your Tickets</h2>
+<form id="booking-form">
+<div class="form-group">
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" required>
+<small class="error-message"></small>
+</div>
+<div class="form-group">
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" required>
+<small class="error-message"></small>
+</div>
+<div class="form-group">
+<label for="event-select">Select Event:</label>
+<select id="event-select" name="event" required>
+<option value="">-- Select an Event --</option>
+</select>
+<small class="error-message"></small>
+</div>
+<div class="form-group">
+<label for="tickets">Number of Tickets:</label>
+<input type="number" id="tickets" name="tickets" min="1" value="1" required>
+<small class="error-message"></small>
+</div>
+<button type="submit" class="btn btn-primary">Confirm Booking</button>
+<div id="form-message" class="form-status-message"></div>
+</form>
+</div>
+</section> -->
+ 
+        <section id="login-register" class="login-register-placeholder">
+<div class="container">
+<h2>Login or Register</h2>
+<p>This is a placeholder for Login/Registration. In a real application, this would lead to a login form or a registration page.</p>
+<p>For now, enjoy browsing and booking events!</p>
+</div>
+</section>
+</main>
+ 
+    <footer>
+<div class="container">
+<p>© 2025 EventX. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+</div>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
