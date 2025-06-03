@@ -64,7 +64,7 @@ section {
     padding: 60px 0;
 }
  
-/* Navbar */
+
 .navbar {
     background-color: var(--dark-color);
     color: #fff;
@@ -109,7 +109,7 @@ section {
 }
  
 .menu-toggle {
-    display: none; /* Hidden by default, shown on mobile */
+    display: none; 
     background: none;
     border: none;
     cursor: pointer;
@@ -124,7 +124,7 @@ section {
     transition: all 0.3s ease-in-out;
 }
  
-/* Buttons */
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -164,7 +164,7 @@ section {
     background-color: #fff;
     color: var(--dark-color);
 }
-.navbar .btn-outline { /* Specific for navbar button */
+.navbar .btn-outline { 
     border-color: var(--primary-color);
     color: var(--primary-color);
 }
@@ -174,16 +174,16 @@ section {
 }
  
  
-/* Hero Section */
+
 .hero-section {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../public/banner.jpeg') no-repeat center center/cover;
     color: #fff;
-    height: 90vh; /* Adjusted to leave space for navbar */
+    height: 90vh; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-top: 60px; /* Account for fixed navbar */
+    padding-top: 60px; 
     
 }
  
@@ -197,7 +197,7 @@ section {
     margin-bottom: 2rem;
 }
  
-/* Featured Events Section */
+
 .featured-events-section {
     background-color: var(--light-color);
 }
@@ -262,9 +262,8 @@ section {
 }
  
  
-/* Booking Form Section */
+
 .booking-section {
-    /* background-color: #fff; */
     width: 50%;
 }
 
@@ -278,7 +277,6 @@ section {
 }
  
 #booking-form {
-    /* max-width: 600px; */
     margin: 0 auto;
     background-color: var(--light-color);
     padding: 30px;
@@ -341,13 +339,13 @@ section {
     color: #fff;
 }
  
-/* Login/Register Placeholder */
+
 .login-register-placeholder {
     background-color: var(--light-color);
     text-align: center;
 }
  
-/* Footer */
+
 footer {
     background-color: var(--dark-color);
     color: #ccc;
@@ -363,32 +361,32 @@ footer a:hover {
 }
  
  
-/* Responsive Design */
+
 @media (max-width: 768px) {
     .navbar .nav-links {
-        display: none; /* Hide links by default */
+        display: none; 
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 60px; /* Adjust based on navbar height */
+        top: 60px; 
         left: 0;
         background-color: var(--dark-color);
         padding: 1rem 0;
     }
     .navbar .nav-links.active {
-        display: flex; /* Show when active */
+        display: flex; 
     }
     .navbar .nav-links li {
         margin: 10px 0;
         text-align: center;
     }
-    .navbar .nav-links .btn-outline { /* Adjust login button for mobile menu */
+    .navbar .nav-links .btn-outline { 
         display: block;
         margin: 10px auto;
         width: fit-content;
     }
     .menu-toggle {
-        display: block; /* Show hamburger */
+        display: block; 
     }
     .menu-toggle.active span:nth-child(1) {
         transform: rotate(45deg) translate(5px, 5px);
@@ -408,7 +406,7 @@ footer a:hover {
     }
  
     .event-grid {
-        grid-template-columns: 1fr; /* Single column on mobile */
+        grid-template-columns: 1fr; 
     }
 }
  
