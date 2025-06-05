@@ -1,3 +1,6 @@
+### NAME: NAMANJOT KAUR 
+### Student ID: 35101497
+
 ### WEBSITE URL:
 http://eventx.social | http://172.184.153.90
 ### VIDEO EXPLAINER URL:
