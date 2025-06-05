@@ -744,6 +744,8 @@ chmod +x deploy.sh
 ```
 
 ---
+## Sample Output
+<img width="1167" alt="Screenshot 2025-06-05 at 6 21 48 PM" src="https://github.com/user-attachments/assets/e98e3637-6892-4c54-9979-e0aa3c9d0c33" />
 
 ## Security Configuration
 
