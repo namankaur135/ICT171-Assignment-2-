@@ -12,7 +12,8 @@
 - **Live Website:** [https://eventx.social](https://eventx.social)
 - **GitHub Repository:** [ICT171-Assignment-2](https://github.com/namankaur135/ICT171-Assignment-2-)
 - **Server IP:** 172.184.153.90
-
+- **Video Explainer:** https://dai.ly/k1yfZX7vEAA45qDcmvc
+  
 ---
 
 ## 📋 Table of Contents
@@ -926,7 +927,50 @@ For technical support or questions regarding this server setup:
 - **Repository:** [GitHub - ICT171-Assignment-2](https://github.com/namankaur135/ICT171-Assignment-2-)
 
 ---
+# Conclusion
 
+This project successfully demonstrates the complete deployment and configuration of a production-ready web server using Microsoft Azure's Infrastructure as a Service platform. Through manual configuration and setup, I have achieved all the learning outcomes specified in the ICT171 assignment requirements.
+
+The implementation of **eventx.social** showcases proficiency in multiple critical areas of server administration: Linux command-line operations, NGINX web server configuration, domain management with DNS integration, SSL/TLS certificate implementation for secure communications, and automated deployment workflows using GitHub version control. The server architecture demonstrates industry-standard security practices including firewall configuration, HTTPS enforcement, and automated certificate renewal.
+
+The custom automation script developed for this project provides a robust deployment pipeline that ensures consistent and reliable updates while maintaining system integrity through backup mechanisms and configuration validation. This approach reflects real-world DevOps practices and demonstrates the ability to create maintainable infrastructure solutions.
+
+Throughout this project, I gained valuable hands-on experience with cloud infrastructure management, security best practices, and the importance of comprehensive documentation. The challenges encountered during setup, particularly with DNS propagation and SSL certificate configuration, provided excellent learning opportunities that enhanced my troubleshooting and problem-solving skills.
+
+The final implementation successfully meets all technical requirements: the server is accessible via HTTPS at eventx.social, all services are properly configured and secured, and the documentation provides sufficient detail for complete system replication. This project serves as a solid foundation for future web development and server administration endeavors.
+
+---
+# References
+
+Azure. (2025). *Virtual Machines Documentation*. Microsoft. https://docs.microsoft.com/en-us/azure/virtual-machines/
+
+Certbot. (2025). *User Guide*. Electronic Frontier Foundation. https://certbot.eff.org/instructions
+
+Digital Ocean. (2024). *How To Install Nginx on Ubuntu 22.04*. DigitalOcean Community Tutorials. https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04
+
+GoDaddy. (2025). *DNS Management Help*. GoDaddy Help Center. https://www.godaddy.com/help/manage-dns-680
+
+Let's Encrypt. (2025). *Getting Started*. Internet Security Research Group. https://letsencrypt.org/getting-started/
+
+Mozilla. (2025). *SSL Configuration Generator*. Mozilla Foundation. https://ssl-config.mozilla.org/
+
+Murdoch University. (2025). *ICT171 Introduction to Server Environments and Architectures: Unit Guide*. School of Information Technology.
+
+Murdoch University Library. (2025). *Referencing Guide*. http://library.murdoch.edu.au/Students/Referencing/
+
+NGINX. (2025). *Beginner's Guide*. NGINX Documentation. https://nginx.org/en/docs/beginners_guide.html
+
+NGINX. (2025). *Server Configuration*. NGINX Documentation. https://nginx.org/en/docs/http/server_names.html
+
+Sivers, D. (2024). *Writing and Style Notes*. GitHub Repository. https://github.com/SCH-ITMurdochUni/NetworkingLabs/blob/main/Reusable_Learning_Objects/writing.md
+
+Stack Overflow. (2025). *Various Technical Solutions*. Stack Exchange Inc. https://stackoverflow.com/
+
+Ubuntu. (2025). *Server Guide*. Canonical Ltd. https://ubuntu.com/server/docs
+
+Ubuntu. (2025). *UFW - Uncomplicated Firewall*. Ubuntu Documentation. https://help.ubuntu.com/community/UFW
+
+---
 ## 📄 License
 
 This project is created for educational purposes as part of ICT 171 Assignment 2 at Murdoch University.
